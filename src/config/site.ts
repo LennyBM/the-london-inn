@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "the-london-inn",
   "name": "The London Inn",
   "shortName": "The London Inn",
   "tagline": "A 16th-century Cornish coaching inn in the heart of Kilkhampton",
-  "intro": "Traditional, freshly home-cooked pub food at very reasonable prices (around £14 a head), served until roughly 8:30pm. Sunday roasts, hearty classics, daily specials board, a takeaway menu, and occasio",
+  "intro": "Traditional, freshly home-cooked pub food at very reasonable prices (around £14 a head), served until roughly 8:30pm.",
   "type": "Pub",
   "established": "16th century",
   "siteUrl": "https://the-london-inn.vercel.app",
@@ -229,7 +229,6 @@ export const site: SiteConfig = {
     "img-08.jpg",
     "img-09.jpg",
     "img-10.jpg",
-    "img-11.jpg",
     "img-12.jpg",
     "img-13.jpg",
     "img-14.jpg",
@@ -237,11 +236,9 @@ export const site: SiteConfig = {
     "img-16.jpg",
     "img-17.jpg",
     "img-18.jpg",
-    "img-19.jpg",
-    "img-20.jpg",
     "img-21.jpg"
   ],
-  "hero": "img-04.jpg",
+  "hero": "img-00.jpg",
   "featured": [
     "img-01.jpg",
     "img-02.jpg",
@@ -251,6 +248,28 @@ export const site: SiteConfig = {
     "img-06.jpg"
   ],
   "videoUrls": [],
+  "focal": {
+    "img-00.jpg": "45% 60%",
+    "img-03.jpg": "50% 40%",
+    "img-04.jpg": "70% 50%",
+    "img-05.jpg": "35% 55%",
+    "img-06.jpg": "40% 60%",
+    "img-07.jpg": "45% 65%",
+    "img-09.jpg": "55% 60%",
+    "img-10.jpg": "45% 60%",
+    "img-13.jpg": "45% 60%",
+    "img-14.jpg": "55% 60%",
+    "img-15.jpg": "45% 60%",
+    "img-16.jpg": "45% 55%",
+    "img-17.jpg": "50% 60%",
+    "img-18.jpg": "50% 60%",
+    "img-21.jpg": "45% 55%"
+  },
+  "design": {
+    "display": "coast",
+    "hero": "typographic",
+    "order": "food-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#3E2C23",
